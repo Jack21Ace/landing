@@ -7,35 +7,44 @@
     display: flex;
     text-decoration: none;
     margin-top: 1rem;
-    margin-left: -2.5rem;
-    margin-right: -2.5rem;
+    margin-left: 4.3rem;
+    margin-right: 4.5rem;
     align-items: center;
+
 }
 
-.card-group {
-    display: flex;
-    flex-flow: row wrap;
-    margin-right: 17pt;
-}
 
 
 #visit-turism {
     display: flex;
 }
 
+#visit-turism p {
+    font-size: 14pt;
+}
+
+
 .col-md-4 p {
-    font-size: 18.5px;
-    letter-spacing: -0.5px;
+    font-size: 21px;
+
 }
 
 #bg-light {
-    background-color: white !important;
-    margin-left: -8rem;
-    margin-right: -117.5px;
-    margin-top: -1rem;
-    padding-left: 36pt;
-    height: 59pt;
-    padding-right: 47pt;
+    padding-left: 3.7rem;
+    font-size: calc(1em + 1vw);
+    padding-right: 3rem;
+    margin-top: -11.99pt;
+    margin-left: -0.8rem;
+    margin-right: -0.72rem;
+}
+
+/* #bg-light .navbar-brand{
+    width: 1rem;
+} */
+
+.navbar-brand img {
+    width: 100%;
+    margin: -9px;
 }
 
 .nav-item {
@@ -53,14 +62,13 @@
     list-style: none;
     align-items: center;
     margin-bottom: 0;
-    font-size: 16.5px;
-    font-weight: 367;
 }
 
 .list-nav-li {
     padding: 0 10px;
     text-decoration: none;
     color: black;
+    font-size: 1rem;
 }
 
 .list-nav-li a {
@@ -70,18 +78,17 @@
 }
 
 .button-comprar-ahora {
-    color: white;
-    background-color: #FF7200;
-    border-radius: 8px;
+    color: white !important;
+    background-color: #FF7200 !important;
+    width: 12rem;
+    height: 3.4rem;
+    border-radius: 5px;
     border: none;
     font-weight: bolder !important;
-    width: 11rem;
-    height: 3rem;
 }
 
 h5 {
     margin-bottom: 0 !important;
-    width: 100%;
 }
 
 .container-banner {
@@ -93,31 +100,24 @@ h5 {
 .item-1 {
     grid-column: 1 / 14;
     grid-row: 1 / 12;
-    margin-top: -9pt;
-}
-
-.section-promos h1{
-    font-weight: 400;
+    margin-top: -0.5rem;
 }
 
 .section-grid {
-    background-image: url(IMG/graph.png);
-    height: 563px;
-    margin-left: -29pt;
-    margin-top: -26.9pt;
+    background-image: url("IMG/graph.png");
+    height: 520px;
 }
 
 
 .item-2 {
-    /* grid-column: 4 / 10;
-    grid-row: 10 / 12; */
-    width: 102%;
+    grid-column: 4 / 10;
+    grid-row: 10 / 12;
+
 }
 
 .seccion1 {
     display: flex;
-    margin: 30px;
-    width: 90%;
+    margin: 40px;
 }
 
 .seccion1-icon {
@@ -126,94 +126,31 @@ h5 {
 
 #row-center {
     background: linear-gradient(to right, #FF6114, #FF945A);
+    ;
     border-radius: 5px;
     color: white;
-    margin-top: 28px;
-    font-size: 12.5px;
-    font-weight: 520;
-    padding-bottom: 14pt;
-    padding-top: 10pt;
-}
-
-#row-center p {
-    font-size: 12;
-    font-weight: 600;
-    margin-bottom: -25pt;
-    padding-bottom: 21pt;
-}
-
-#row-center h5 {
-    font-size: 16px;
-    font-weight: Bolder;
-    padding-bottom: 10px;
-    width: 140%;
 }
 
 #promociones {
-    width: 100%;
-    margin-top: -57pt;
-}
-
-#promociones .plus-bold h1{
-    font-weight: bolder;
-    font-size: 26pt;
-}
-
-#promociones .button-section-promos{
-    margin-top: -4px;
-}
-
-.avatars-draw {
-    margin-top: -80pt !important;
+    margin-left: 5rem;
 }
 
 .section-promos {
     display: flex;
     align-items: center;
-    margin-left: -27pt;
-    margin-right: -79pt;
-    margin-top: 58px;
 }
 
 .section-promos p {
     font-size: 21px;
+
 }
 
 .section-promos-text {
     padding: 3rem;
-    margin-top: 33pt;
-}
-
-.section-promos-text .titles h1{
-    margin-top: -48pt;
-}
-
-.button-content .button-comprar-ahora{
-    width:38%;
-}
-
-.button-content .button-comprar-ahora h5 {
-    font-size:25pt;
-}
-
-.button-content .button-comprar-ahora{
-    height: 5.5rem;
-}
-
-.section-promos-text .plus-bold h2 {
-    font-weight: bolder;
-    font-size: 24pt;
-    font-family: arial
-}
-
-#promociones p {
-    font-size: 18px;
-    font-weight: 300;
-    margin-bottom: -25pt;
 }
 
 #line {
-    background-color: #eee;
+    background-color: #ddd;
     height: 1px;
     margin-bottom: 1rem;
 }
@@ -278,11 +215,7 @@ h5 {
     border-bottom: 1px solid #f2f2f2;
     border: 1px solid #f2f2f2;
     padding: 10px;
-}
 
-.list-nav-li button h5 {
-    font-size: 16.5px;
-    font-weight: bolder;
 }
 
 .section-promos table td {
@@ -295,7 +228,7 @@ h5 {
 }
 
 table {
-    margin-top: 4rem;
+    margin-top: 3rem;
     width: 100%;
     border: 1px solid;
 }
@@ -322,17 +255,10 @@ thead {
 .feliz {
     background-color: #23C367;
     color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-    padding-top: 3px;
-    width: 70pt;
-    height: 18pt;
-}
+    font-weight: bolder;
 
-.avatars {
-    width: 100% !important;
 }
 
 .input {
@@ -342,10 +268,10 @@ thead {
 
 #dudas {
     margin-top: 2rem;
-    margin-bottom: 4rem;
-    padding: 1rem;
+    margin-bottom: 5rem;
+    padding: 3rem;
     background-color: #f8f8f8;
-    padding-bottom: 5rem;
+
 }
 
 .card-body {
@@ -364,16 +290,7 @@ thead {
 .card-title2 {
     color: black;
     margin-top: 1rem;
-    /* text-align: center; */
-    padding-left: 9pt;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.angle {
-    margin-top: 15%;
-    margin-left: 13pt;
+    text-align: center;
 }
 
 .card-text {
@@ -390,29 +307,18 @@ a {
 }
 
 .card {
-    margin: 6pt;
+    margin: 2rem;
     border-radius: 1rem !important;
     border: none !important;
 }
 
 .section-promos-text h1 {
     margin-bottom: 2rem;
-    font-weight: 500;
-}
-
-.section-promos h2 {
-    font-size: 2.3rem;
-    font-weight: 700;
 }
 
 #promosyconsederaciones {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
-
-#promosyconsederaciones .section-promos-text p{
-    font-size: 14.5px;
-}
-
 
 .considerations {
     display: flex;
@@ -423,25 +329,12 @@ a {
     margin-right: 1rem;
 }
 
-
-.icon-considerations img{
-    width: 66px;
-    padding-top: 11pt;
-}
-
 .tours-populares {
     align-self: center;
 }
 
-.tours-populares h1{
-    font-weight: 555;
-    margin-left: 26pt;
-    font-weight: 700;
-}
-
-#promosyconsederaciones .button-content {
+.button-content {
     text-align: center;
-    margin-top: 55pt;
 }
 
 footer {
@@ -466,12 +359,6 @@ footer {
     width: 40%;
 }
 
-.titles p {
-    font-size: 17px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-
 
 .titles2 {
     width: auto;
@@ -483,8 +370,7 @@ footer {
 }
 
 .section-promos-text p {
-    font-size: 21.5px;
-    font-weight: 500;
+    font-weight: bolder;
 }
 
 #id-col-sm-6 {
@@ -493,23 +379,47 @@ footer {
 
 .plus-bold p {
     font-weight: bold;
+    font-size: 35px;
     color: black;
 }
 
 /*media Q/responsive*/
 
 /* ------------- */
-
-@media (max-width: 1980px) {
-
-
-
+@media (max-width: 2538px) {
     .item-2 {
-        grid-column: 3/11;
+        grid-column: 2/12;
         grid-row: 11 / 13;
         height: 100px;
     }
 
+    .lista-nav {
+        margin-left: 3rem;
+    }
+
+    .nav-item img {
+        margin-left: -70px;
+        width: 2.32em;
+        margin-right: 6rem;
+    }
+
+
+    #bg-light {
+        padding-left: 3.7rem;
+        padding-right: 10rem;
+        margin-top: -11.99pt;
+        margin-left: -0.8rem;
+        margin-right: -0.72rem
+    }
+
+    #visit-turism {
+        display: flex;
+        padding-left: 4.2rem;
+    }
+
+    #visit-turism p {
+        font-size: 21pt;
+    }
 
     .avatars-draw {
         margin-top: 60px;
@@ -517,7 +427,6 @@ footer {
 
     #promociones {
         margin-left: 4rem;
-        margin-top: 20pt;
     }
 
     #container-grid {
@@ -526,11 +435,187 @@ footer {
 
     .container-banner {
         margin-bottom: 0;
+        margin-top: -0.03rem;
+    }
+
+    .navbar-brand img {
+        margin: -13px;
+        margin-left: 1.9rem;
+        width: 97%;
+    }
+
+    .navbar-brand {
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        white-space: nowrap;
+        width: 29rem;
+    }
+
+    .list-nav-li a {
+        cursor: pointer;
+        color: black;
+        font-size: 1.67em;
+    }
+
+    .button-comprar-ahora {
+        color: white !important;
+        background-color: #FF7200 !important;
+        width: 20rem;
+        height: 4.5rem;
+        border-radius: 8px;
+        border-radius: 5px;
+        border: none;
+        font-weight: bolder !important;
+    }
+
+    .button-comprar-ahora h5 {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media (max-width: 1980px) {
+
+    .item-2 {
+        grid-column: 2/12;
+        grid-row: 11 / 13;
+        height: 100px;
+    }
+
+    .list-nav-li a {
+        cursor: pointer;
+        color: black;
+        font-size: 1.5em;
+    }
+
+    .avatars-draw {
+        margin-top: 60px;
+    }
+
+    .navbar-brand img {
+        margin: -13px;
+        margin-left: 1.9rem;
+        width: 78%;
+    }
+
+    #promociones {
+        margin-left: 4rem;
+    }
+
+    #container-grid {
+        margin-top: 80px;
+    }
+
+    .container-banner {
+        margin-bottom: 0;
+        margin-top: -0.03rem;
+    }
+
+    .button-comprar-ahora {
+        color: white !important;
+        background-color: #FF7200 !important;
+        width: 18rem;
+        height: 4rem;
+        border-radius: 8px;
+        border-radius: 5px;
+        border: none;
+        font-weight: bolder !important;
+    }
+
+    .button-comprar-ahora h5 {
+        font-size: 2rem;
+    }
+    #visit-turism{
+        display: flex;
+        padding-left: 3.7rem;
+    }
+
+    #visit-turism p{
+        font-size: 18.5pt;
     }
 }
 
-.avatars-draw .avatar1{
-    height: 700pt;
+@media (max-width: 1680px) {
+
+    .item-2 {
+        grid-column: 2/12;
+        grid-row: 11 / 13;
+        height: 100px;
+    }
+
+    .list-nav-li a {
+        cursor: pointer;
+        color: black;
+        font-size: 1.4em;
+    }
+
+    .list-nav-li{
+        margin-left: 0rem;
+        padding-left: 0rem;
+    }
+
+    .avatars-draw {
+        margin-top: 60px;
+    }
+
+    #visit-turism{
+        display: flex;
+        padding-left: 1rem;
+    }
+
+    #visit-turism p{
+        font-size: 17.5pt;
+    }
+
+    .list-nav{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-bottom: 0;
+        margin-right: -3rem;
+    }
+
+    .buttonGroup {
+        display: flex;
+        list-style: none;
+        margin-right: -7rem;
+    }
+
+    #promociones {
+        margin-left: 4rem;
+    }
+
+    #container-grid {
+        margin-top: 80px;
+    }
+
+    .navbar-brand img {
+        margin: -13px;
+        margin-left: -0.1rem;
+        width: 74%;
+    }
+
+    .container-banner {
+        margin-bottom: 0;
+        margin-top: -0.03rem;
+    }
+
+
+    .button-comprar-ahora {
+        color: white !important;
+        background-color: #FF7200 !important;
+        width: 15rem;
+        height: 3.5rem;
+        border-radius: 8px;
+        margin-right: -4rem;
+        border-radius: 5px;
+    }
+
+    .button-comprar-ahora h5 {
+        font-size: 1.5rem;
+    }
 }
 
 /* ------------- */
@@ -539,9 +624,8 @@ footer {
 
     .item-2 {
         grid-column: 2/12;
-        grid-row: 10 / 12;
+        grid-row: 9 / 11;
     }
-
 
     .avatars-draw {
         margin-top: 0;
@@ -551,6 +635,22 @@ footer {
         margin-left: 3rem;
     }
 
+    .navbar-brand img {
+        margin: -13px;
+        margin-left: 1.9rem;
+        width: 66%;
+        margin-top: -16px;
+    }
+
+    #visit-turism{
+        display: flex;
+        padding-left: 0.5rem;
+    }
+
+    #visit-turism p{
+        font-size: 15.5pt;
+    }
+
     .container-banner {
         margin-bottom: 0;
     }
@@ -559,9 +659,50 @@ footer {
         margin-top: 80px;
     }
 
+    #bg-light {
+        background-color: white !important;
+        padding-left: 0.7rem;
+        padding-right: 10rem;
+        margin-top: -9pt;
+        margin-left: -0.8rem;
+        margin-right: -0.72rem;
+        height: 5.4rem;
+    }
+
+    .list-nav {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-bottom: 0;
+        margin-right: -4rem;
+    }
+
+    .button-comprar-ahora {
+        color: white !important;
+        background-color: #FF7200 !important;
+        width: 16rem;
+        height: 3.2rem;
+        border-radius: 5px;
+        border: none;
+        font-weight: bolder !important;
+    }
+
+    .button-comprar-ahora h5 {
+        font-size: 1.5rem;
+    }
+
 }
 
 @media (max-width: 1367px) {
+
+    #bg-light {
+        padding-left: 9.7rem;
+        padding-right: 4rem;
+        margin-top: -11.99pt;
+        margin-left: -0.8rem;
+        margin-right: -0.72rem;
+        height: 4.5rem;
+    }
 
     .item-2 {
         grid-column: 2/12;
@@ -573,7 +714,7 @@ footer {
     }
 
     .avatar1 {
-        margin-top: 6rem;
+        margin-top: 5rem;
     }
 
     #promociones {
@@ -587,6 +728,44 @@ footer {
     #container-grid {
         margin-top: 80px;
     }
+
+    .navbar-brand img {
+        margin: -13px;
+        margin-left: -6.1rem;
+        width: 54%;
+    }
+
+    .list-nav {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-bottom: 0;
+        margin-right: 2rem;
+        margin-left: -11rem;
+    }
+
+    #visit-turism p{
+        font-size: 13pt;
+    }
+
+    .list-nav-li a {
+        cursor: pointer;
+        color: black;
+        font-size: 1em;
+    }
+
+    .button-comprar-ahora {
+        color: white !important;
+        background-color: #FF7200 !important;
+        width: 13rem;
+        height: 3.3rem;
+        border-radius: 5px;
+    }
+
+    .button-comprar-ahora h5 {
+        font-size: 1.5rem;
+    }
+
 }
 
 @media (max-width: 1025px) {
@@ -594,6 +773,15 @@ footer {
     .item-2 {
         grid-column: 2/12;
         grid-row: 9 / 12;
+    }
+
+    .list-nav {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-bottom: 0;
+        margin-left: 14rem;
+        margin-top: -67px;
     }
 
     .avatars {
@@ -624,14 +812,50 @@ footer {
     #container-grid {
         margin-top: 5rem;
     }
+
+    .navbar-brand {
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-left: -3rem;
+    }
+
+    .navbar-brand img{
+        margin: -13px;
+        margin-left: -5.1rem;
+        width: 70%;
+    }
+
+    .list-nav {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-bottom: 0;
+        margin-left: 1rem;
+        margin-top: -8px;
+        margin-right: -2rem;
+    }
+
+    .nav-item img {
+        margin-left: -20px;
+        width: 2.2em;
+        margin-right: 1rem;
+    }
+
+    #visit-turism {
+        display: flex;
+    margin-left: -2rem;
+    }
+
+    #visit-turism p {
+        font-size: 13pt;
+    }
+
 }
 
 @media (max-width: 820px) {
-    .col-md-4 p {
+    .col-4 p {
         font-size: 14px;
     }
-
-
 
     .menu-line {
         width: 30px;
@@ -653,11 +877,9 @@ footer {
         margin-left: 0;
     }
 
-
-
     .button-section-promos {
-        text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 
     th {
@@ -682,13 +904,13 @@ footer {
     .item-1 {
         grid-column: 1 / 5;
         grid-row: 1 / 4;
-        margin-top: 10px;
-
+        margin-top: 0rem;
     }
 
     .item-2 {
         grid-column: 1 / 5;
         grid-row: 4 / 5;
+        margin-top: -14px;
     }
 
     #container-grid {
@@ -737,19 +959,38 @@ footer {
     }
 
     .button-comprar-ahora {
-        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .nav-item img {
+        margin-left: -20px;
+        width: 1.8em;
+        margin-right: 2rem;
+    }
+
+    #visit-turism p {
+        font-size: 18pt;
+    }
+
+    .button-comprar-ahora {
+        color: white !important;
+        background-color: #FF7200 !important;
+        width: 15.5rem;
+        height: 2.7rem;
+        border-radius: 5px;
+        border: none;
+        font-weight: bolder !important;
+    }
+
+    .button-comprar-ahora h5 {
+        font-size: 1rem;
     }
 
 
 }
 
-.col-md-5 {
-    flex: 0 0 auto;
-    width: 42.666667%;
-}
-
 @media (max-width: 480px) {
-    .col-md-4 p {
+    .col-4 p {
         font-size: 14px;
     }
 
@@ -804,12 +1045,14 @@ footer {
 
     #row-center {
         display: block;
+        padding-bottom: 1rem;
     }
 
     .item-2 {
         grid-column: 1 / 5;
-        grid-row: 3 / 5;
-        margin-top: 2rem;
+        grid-row: 5 / 3;
+        margin-bottom: 1rem;
+        text-align: center;
     }
 
     #container-grid {
@@ -819,7 +1062,12 @@ footer {
     #promociones {
         text-align: center;
         margin-left: 0;
-        margin-top: 450px;
+        margin-top: 573px;
+    }
+
+    #promociones .plus-bold p {
+        font-weight: 999;
+        font-size: 1.5rem !important;
     }
 
     .avatars {
@@ -836,7 +1084,7 @@ footer {
     }
 
     .section-promos-text {
-        padding: 20px;
+        padding: 12px;
     }
 
     .section-promos-text p {
@@ -869,15 +1117,20 @@ footer {
         padding-top: 1rem;
     }
 
-}
+    .button-comprar-ahora {
+        color: white !important;
+        background-color: #FF7200 !important;
+        width: 15.5rem;
+        height: 2.7rem;
+        border-radius: 5px;
+        border: none;
+        font-weight: bolder !important;
+    }
 
-.section-promos .row{
-    padding-left: 37pt;
-}
+    .button-comprar-ahora h5 {
+        font-size: 1rem;
+    }
 
-.section-promos .button-comprar-ahora{
-    width: 15rem;
-    height: 3.5rem;
 }
 
 .bg-image-big {
