@@ -669,6 +669,7 @@ footer {
         display: flex;
         align-items: center;
         margin-left: -6rem;
+        padding-bottom: 3rem;
     }
 }
 
