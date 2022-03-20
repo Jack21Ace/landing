@@ -852,7 +852,7 @@ footer {
 @media (max-width: 1367px) {
 
     .fontAwesome-Icon {
-        margin-top: 10rem;
+        margin-top: 8rem;
 
     }
 
@@ -876,9 +876,6 @@ footer {
         width: 100% !important;
     }
 
-    #container-grid {
-        margin-top: 4rem;
-    }
 
     .buttonGroup {
         display: flex;
@@ -892,6 +889,12 @@ footer {
 
     #promociones {
         margin-left: 1rem;
+        font-size: 10.1pt;
+    }
+
+    #promociones .button-comprar-ahora{
+        width: 13rem;
+        height: 3.3rem;
     }
 
     .container-banner {
@@ -969,6 +972,7 @@ footer {
         margin-left: 1rem;
         padding-right: 8rem;
         padding-bottom: 3rem;
+        margin-top: -2rem;
     }
 
     #dudas .section-promos h2 {
@@ -978,11 +982,18 @@ footer {
 
     #container-grid {
         margin-top: 7rem;
+        margin-left: 6rem;
+        margin-bottom: -3rem;
     }
+    
 
     .section-promos p {
         font-size: 14.5px;
         font-weight: 300;
+    }
+
+    .seec2 .plus-bold{
+        text-align: center;
     }
 
 }
