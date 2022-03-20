@@ -24,6 +24,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- Fount Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Turismoi</title>
   </head>
   <body>
@@ -143,10 +145,7 @@
           <div class="col">
             <div class="seccion1">
               <div class="seccion1-icon">
-                <img
-                  src="IMG/Faplicar.png" width="100%"
-                  class="img-fluid"
-                />
+                <img src="IMG/Faplicar.png" width="100%" class="img-fluid" />
               </div>
               <div>
                 <h5>Fácil de aplicar</h5>
@@ -234,25 +233,29 @@
     <div id="line"></div>
     <div class="container col-12">
       <div class="row">
+          <div class="secc2">
         <section class="section-promos">
-          <div class="col-6"><img src="IMG/avatar2.png" class="avatars img-fluid" /></div>
-          <div class="section-promos-text col-sm-6">
-            <div class="plus-bold">
-              <p>Cómo aplicar tus cupones de regalo en 3 sencillos pasos</p>
-            </div>
-            <div class="section-grid">
-              <div style="padding-top: 85px; margin-left: 205px">
-                <p>Elige tu actividad favorita</p>
-              </div>
-              <div style="padding-top: 120px; margin-left: 115px">
-                <p>Sigue el proceso de compra</p>
-              </div>
-              <div style="padding-top: 165px; margin-left: 190px">
-                <p>Aplica el cupón de regalo</p>
-              </div>
-            </div>
-          </div>
-        </section>
+                <div class="col-6">
+                    <img src="IMG/avatar2.png" class="avatars img-fluid" />
+                </div>
+                <div class="section-promos-text col-sm-6">
+                    <div class="plus-bold">
+                        <p>Cómo aplicar tus cupones de regalo en 3 sencillos pasos</p>
+                    </div>
+                    <div class="section-grid">
+                        <div style="padding-top: 85px; margin-left: 205px">
+                            <p>Elige tu actividad favorita</p>
+                        </div>
+                        <div style="padding-top: 120px; margin-left: 115px">
+                            <p>Sigue el proceso de compra</p>
+                        </div>
+                        <div style="padding-top: 165px; margin-left: 190px">
+                            <p>Aplica el cupón de regalo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
       </div>
     </div>
     <div id="dudas">
@@ -279,18 +282,10 @@
           <div class="col-8">
             <div class="row">
               <div class="col-sm-6">
-                <img
-                  src="IMG/tab1.png"
-                  class="img-fluid"
-                  width="100%"
-                />
+                <img src="IMG/tab1.png" class="img-fluid" width="100%" />
               </div>
               <div class="col-sm-6" id="id-col-sm-6">
-                <img
-                  src="IMG/tab2.png"
-                  class="img-fluid"
-                  width="100%"
-                />
+                <img src="IMG/tab2.png" class="img-fluid" width="100%" />
               </div>
             </div>
           </div>
@@ -351,55 +346,74 @@
               </div>
             </a>
           </div>
+          <div class="fontAwesome-Icon hidden-sm-up">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
         </div>
       </section>
     </div>
-    <div class="container" id="promosyconsederaciones">
+    <div class="container col-12" id="promosyconsederaciones">
       <section class="section-promos">
-        <div>
+        <div class="col-7">
           <img src="IMG/consideraciones.png" class="avatars img-fluid" />
         </div>
-        <div class="section-promos-text">
+        <div class="section-promos-text col-5">
           <div class="titles">
             <h1>Consideraciones</h1>
           </div>
           <div class="content">
-            <div class="considerations">
-              <div class="icon-considerations">
-                <img src="IMG/chulo.png" img-fluid />
-              </div>
-              <div>
-                <p>
-                  Válido para una transacción por persona de hasta 20 pasajeros
-                  como máximo.
-                </p>
-              </div>
-            </div>
-            <div class="considerations">
-              <div class="icon-considerations">
-                <img src="IMG/chulo.png" img-fluid />
-              </div>
-              <div>
-                <p>
-                  Válido para una tours con disponibilidad de stock y
-                  disponibilidad de fechas del tour seleccionado.
-                </p>
+            <div class="container">
+              <div class="row">
+                <div class="icon-considerations col">
+                  <img src="IMG/chulo.png" class="img-fluid" />
+                </div>
+                <div class="considerations col">
+                  <div>
+                    <p>
+                      Válido para una transacción por persona de hasta 20
+                      pasajeros como máximo.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="considerations">
-              <div class="icon-considerations">
-                <img src="IMG/chulo.png" img-fluid />
-              </div>
-              <div>
-                <p>No se acumula con otras promociones o descuentos.</p>
+            <div class="container">
+              <div class="row">
+                <div class="icon-considerations col">
+                  <img src="IMG/chulo.png" class="img-fluid" />
+                </div>
+                <div class="considerations col">
+                  <div>
+                    <p>
+                      Válido para una tours con disponibilidad de stock y
+                      disponibilidad de fechas del tour seleccionado.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="considerations">
-              <div class="icon-considerations">
-                <img src="IMG/chulo.png" img-fluid />
+            <div class="container">
+              <div class="row">
+                <div class="icon-considerations col">
+                  <img src="IMG/chulo.png" class="img-fluid" />
+                </div>
+                <div class="considerations col">
+                  <div>
+                    <p>No se acumula con otras promociones o descuentos.</p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <p>Válido para comprar hasta el 31 de Marzo de 2022.</p>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="icon-considerations col">
+                  <img src="IMG/chulo.png" class="img-fluid" />
+                </div>
+                <div class="considerations col">
+                  <div>
+                    <p>Válido para comprar hasta el 31 de Marzo de 2022.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
