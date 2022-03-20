@@ -1197,6 +1197,13 @@ footer {
         font-size: 14px;
     }
 
+    .navbar-brand img {
+        margin: -13px;
+        margin-left: -5.1rem;
+        width: 52%;
+        padding-top: 1rem;
+    }
+
     .menu-line {
         width: 30px;
         height: 5px;
