@@ -985,7 +985,12 @@ footer {
         margin-left: 6rem;
         margin-bottom: -3rem;
     }
-    
+
+    .section-grid {
+        background-image: url("IMG/graph.png");
+        height: 541px;
+        margin-right: -4rem;
+    }
 
     .section-promos p {
         font-size: 14.5px;
@@ -1169,6 +1174,12 @@ footer {
         height: 4rem;
     }
 
+    .section-grid {
+        background-image: url("IMG/graph.png");
+        height: 541px;
+        margin-right: -4rem;
+    }
+
 }
 
 @media (max-width: 880px) {
@@ -1319,6 +1330,12 @@ footer {
         font-size: 1rem;
     }
 
+    .section-grid {
+        background-image: url("IMG/graph.png");
+        height: 541px;
+        margin-right: -16rem;
+    }
+
 
 }
 
@@ -1329,6 +1346,12 @@ footer {
 
     .avatar1 {
         width: 90%;
+    }
+
+    .section-grid {
+        background-image: url("IMG/graph.png");
+        height: 541px;
+        margin-right: -4rem;
     }
 
     .menu-line {
