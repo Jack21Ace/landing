@@ -589,7 +589,7 @@
     background-color: white !important;
     margin-top: -11pt;
     margin-bottom: -7pt;
-    margin-left: -85pt;
+    margin-left: -94pt;
     margin-right: -94pt;
     padding-left: 3rem;
     padding-right: 5rem;
@@ -622,6 +622,9 @@
     margin-top: -4rem
     }
    
+    #dudas .col-7{
+        margin-top: -5rem;
+    }
     #container-grid #promociones p {
     font-size: 13pt;
     font-family: system-ui;
